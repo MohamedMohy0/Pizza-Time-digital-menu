@@ -31,9 +31,9 @@ export function HeroSection() {
     <section className="relative overflow-hidden py-16 sm:py-24 text-center">
       <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent" />
       <div className="relative container">
-        <img src={logo} alt="Primos Pizza" className="mx-auto h-28 w-28 sm:h-36 sm:w-36 rounded-full object-cover shadow-lg border-4 border-secondary" />
+        <img src={logo} alt="Pizza Time" className="mx-auto h-28 w-28 sm:h-36 sm:w-36 rounded-full object-cover shadow-lg border-4 border-secondary" />
         <h1 className="mt-6 text-4xl sm:text-5xl font-extrabold text-foreground font-display">
-          Primos <span className="text-primary">Pizza</span>
+          Pizza <span className="text-primary">Time</span>
         </h1>
         <p className="mt-2 text-secondary-foreground font-bold text-lg">Everytime & All Time</p>
         <p className="mt-4 text-muted-foreground max-w-md mx-auto text-sm leading-relaxed">
