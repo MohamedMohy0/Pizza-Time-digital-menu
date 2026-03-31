@@ -11,8 +11,8 @@ export default function Header() {
           <a href="tel:15233" className="text-sm font-bold text-primary font-display">15233</a>
         </div>
         <div className="flex items-center gap-2">
-          <span className="text-lg font-extrabold text-foreground hidden sm:inline font-display">Primos Pizza</span>
-          <img src={logo} alt="Primos Pizza Logo" className="h-10 w-10 rounded-full object-cover" />
+          <span className="text-lg font-extrabold text-foreground hidden sm:inline font-display">Pizza Time</span>
+          <img src={logo} alt="Pizza Time Logo" className="h-10 w-10 rounded-full object-cover" />
         </div>
       </div>
       {/* Nav */}
