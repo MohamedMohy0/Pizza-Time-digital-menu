@@ -115,8 +115,8 @@ export function Footer() {
   return (
     <footer className="bg-foreground text-background py-8">
       <div className="container text-center">
-        <img src={logo} alt="Primos Pizza" className="mx-auto h-12 w-12 rounded-full object-cover mb-3" />
-        <p className="font-display text-lg font-bold">Primos Pizza</p>
+        <img src={logo} alt="Pizza Time" className="mx-auto h-12 w-12 rounded-full object-cover mb-3" />
+        <p className="font-display text-lg font-bold">Pizza Time</p>
         <p className="text-xs text-background/60 mt-1">Everytime & All Time</p>
         <div className="mt-3 flex items-center justify-center gap-2">
           <Phone className="h-3 w-3" />
