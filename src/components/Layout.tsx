@@ -11,8 +11,8 @@ export default function Header() {
           <a href="tel:15233" className="text-sm font-bold text-primary font-display">15233</a>
         </div>
         <div className="flex items-center gap-2">
-          <span className="text-lg font-extrabold text-foreground hidden sm:inline font-display">Primos Pizza</span>
-          <img src={logo} alt="Primos Pizza Logo" className="h-10 w-10 rounded-full object-cover" />
+          <span className="text-lg font-extrabold text-foreground hidden sm:inline font-display">Pizza Time</span>
+          <img src={logo} alt="Pizza Time Logo" className="h-10 w-10 rounded-full object-cover" />
         </div>
       </div>
       {/* Nav */}
@@ -31,9 +31,9 @@ export function HeroSection() {
     <section className="relative overflow-hidden py-16 sm:py-24 text-center">
       <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent" />
       <div className="relative container">
-        <img src={logo} alt="Primos Pizza" className="mx-auto h-28 w-28 sm:h-36 sm:w-36 rounded-full object-cover shadow-lg border-4 border-secondary" />
+        <img src={logo} alt="Pizza Time" className="mx-auto h-28 w-28 sm:h-36 sm:w-36 rounded-full object-cover shadow-lg border-4 border-secondary" />
         <h1 className="mt-6 text-4xl sm:text-5xl font-extrabold text-foreground font-display">
-          Primos <span className="text-primary">Pizza</span>
+          Pizza <span className="text-primary">Time</span>
         </h1>
         <p className="mt-2 text-secondary-foreground font-bold text-lg">Everytime & All Time</p>
         <p className="mt-4 text-muted-foreground max-w-md mx-auto text-sm leading-relaxed">
@@ -88,7 +88,7 @@ export function AboutSection() {
           عن المطعم <span className="text-primary font-display">About Us</span>
         </h2>
         <p className="text-muted-foreground leading-relaxed text-sm">
-          بريموس بيتزا هو وجهتك المفضلة لأشهى البيتزا في مصر. نقدم لك تشكيلة واسعة من البيتزا بأنواع العجائن المختلفة
+          بيتزا تايم هو وجهتك المفضلة لأشهى البيتزا في مصر. نقدم لك تشكيلة واسعة من البيتزا بأنواع العجائن المختلفة
           (كلاسيك - استافت كراست - ثن - بان) مع مكونات طازجة وأجبان فاخرة. سواء كنت من عشاق اللحوم أو الفراخ أو الجبن،
           عندنا اللي يناسبك. بالإضافة للباستا والمقبلات والحلويات اللذيذة. 8 فروع تخدمك في أنحاء القاهرة الكبرى والمنصورة.
         </p>
@@ -115,14 +115,14 @@ export function Footer() {
   return (
     <footer className="bg-foreground text-background py-8">
       <div className="container text-center">
-        <img src={logo} alt="Primos Pizza" className="mx-auto h-12 w-12 rounded-full object-cover mb-3" />
-        <p className="font-display text-lg font-bold">Primos Pizza</p>
+        <img src={logo} alt="Pizza Time" className="mx-auto h-12 w-12 rounded-full object-cover mb-3" />
+        <p className="font-display text-lg font-bold">Pizza Time</p>
         <p className="text-xs text-background/60 mt-1">Everytime & All Time</p>
         <div className="mt-3 flex items-center justify-center gap-2">
           <Phone className="h-3 w-3" />
           <a href="tel:15233" className="text-sm font-bold">15233</a>
         </div>
-        <p className="text-xs text-background/40 mt-4">© 2026 Primos Pizza. جميع الحقوق محفوظة</p>
+        <p className="text-xs text-background/40 mt-4">© 2026 Pizza Time. جميع الحقوق محفوظة</p>
       </div>
     </footer>
   );
