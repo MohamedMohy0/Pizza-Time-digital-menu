@@ -122,7 +122,7 @@ export function Footer() {
           <Phone className="h-3 w-3" />
           <a href="tel:15233" className="text-sm font-bold">15233</a>
         </div>
-        <p className="text-xs text-background/40 mt-4">© 2026 Primos Pizza. جميع الحقوق محفوظة</p>
+        <p className="text-xs text-background/40 mt-4">© 2026 Pizza Time. جميع الحقوق محفوظة</p>
       </div>
     </footer>
   );
